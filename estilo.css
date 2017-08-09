@@ -1,95 +1,75 @@
-<style type="text/css">
+body{
+	background-color: white;
+	font-size: 16px;
+	background: url("http://st.gde-fon.com/wallpapers_original/185893_most_priroda_les_propast_2560x1440_www.Gde-Fon.com.jpg") top center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
 
-			body{
-				background-color: #CCC; 
-				font-family: Tahoma,Arial;			
-			}
-			/*
-			.copy{
-				font-style: italic;
-				font-weight: bold;
-			}
-			 ul.navbar li {
-			    background: white;
-			    margin: 0.5em 0;
-			    padding: 0.3em;
-			    border-right: 1em solid black 
-			}
-		  	ul.navbar a {
-		 	   text-decoration: none 
-			}
-*/
-			#container{
-				width:100%;
-				font-size: 16px;
-			}
+header{
+/*	background-color: rgba();*/
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 20px 30px #888;
+	text-shadow: 0px 1px 50px orange;
+	margin: 0 auto;	
+	height: 100px;
+	width: 600px;
+}
 
-			#cabecalho{ 
-				background-color:blue;
-			}	
+.caixa{
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid white;
+	width: 110px;
+	margin-top: 5px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto; 
+	display: inline-block;
+}
 
-			#menuHorizontal{
-				text-align: right;
-			}
+#menuHorizontal{
+	text-align: right;
+	margin: 40px 30px 0px 10px;
+	font-size: 1.1em;
 
-			#fundo{
-				background-image: url(img/tv.png);	
-				width: 709px; /* Largura da DIV */
-				height: 472px; /* Altura da DIV */
+}
 
-			}
+#menuAulas{
+	width: 100px;
+	text-align: center;
+	list-style-type: none;	
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	/*margin: 0 auto;*/
+	display: inline-block;
+	
+}
 
-			#menuVertical{
-				width: 240px; /* Largura da DIV */
-				height: 350px; /* Altura da DIV */
+ul li a, ul li a:visited {
+	display:block;
+	color:#fff;
+	list-style-type: none;	
+	text-decoration:none;
+	}
 
-				/* Posiciona no meio, tanto em relação a esquerda como ao topo */
-				left: 50%; 
-				top: 50%;
-				position: absolute; /* posição absoluta ao elemento pai, neste caso o BODY */
-				
-				/* A margem a esquerda deve ser menos a metade da largura */
-				/* A margem ao topo deve ser menos a metade da altura */
-				/* Fazendo isso, centralizará a DIV */
-				margin-left: -400px;
-				margin-top: -200px;
-
-				color:black;
-				text-align: left; /* Centraliza o texto */
-				z-index: 1000; /* Faz com que fique sobre todos os elementos da página */
-				
-			}
-
+#menuAulas h1	{color: white;}
+#menuAulas li 	{text-decoration: none; }
+#menuAulas li:hover		{border: 1px solid white; background-color:#000; color: white;}
+#menuAulas li:active	{background: red;}
+#menuAulas li:link 		{color:black;}
+#menuAulas li:visited	{color:black;}
 			
+#canvas{border: 1px solid white;}
+					
 
-			#conteudo{
-
-				height:400;
-				width:400px;
-				margin-top: -450px;	
-				margin-left: 30px;					 
-				float:left;
-			}
-
-			#rodape{
-				background-color:#ccc;
-				text-align:center;
-				width: 100%;
-				height: 50px;
-				text-align: center;
-				position: absolute;
-				bottom:0;
-			}
+footer{
+	color: white;
+	position: absolute;
+	bottom: 0;
+}
 
 
-			h1{
-				text-align: center;
-				font-size: 2em;
-			}
-
-			li:hover{
-    			background-color: black;
-    			text-align: center;
-    	
-
-			}
